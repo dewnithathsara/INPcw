@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" prefHeight="596.0" prefWidth="722.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.inpcw.LoginFormController">
+   <children>
+      <PasswordField fx:id="txtPassword" layoutX="214.0" layoutY="288.0" prefHeight="48.0" prefWidth="220.0" />
+      <TextField fx:id="txtusername" layoutX="214.0" layoutY="180.0" prefHeight="48.0" prefWidth="220.0" />
+      <Button fx:id="butnlogin" layoutX="248.0" layoutY="399.0" mnemonicParsing="false" onAction="#loginBtnOnAction" prefHeight="36.0" prefWidth="153.0" style="-fx-background-color: #86A7FC;" text="LOGIN" textFill="#3c3939">
+         <font>
+            <Font name="Rekha" size="22.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="247.0" layoutY="46.0" prefHeight="84.0" prefWidth="162.0" text="Get started">
+         <font>
+            <Font name="Rekha" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
